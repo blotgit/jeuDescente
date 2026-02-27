@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+#zone {
+	position: relative;
+	border : solid black 4px;
+	width : 400px;
+	height : 400px;
+	margin: auto;
+	overflow: hidden;
+}
+   
+
+#joueur {
+	position: absolute;
+	background-color : blue;
+	width : 40px;
+	height : 20px;
+	left : 205px;
+	bottom : 10px;
+   
+}
+
+#ennemi {
+	position: absolute;
+	background-color : red;
+	width : 40px;
+	height : 20px;
+	left : 180px;
+	top : 0px;
+   
+}
+
+#commandes {
+	margin-top : 10px;
+	
+}
+
+button {
+	padding: 8px 15px;
+    margin: 5px;
+	
+}

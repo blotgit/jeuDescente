@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jeu d'évitement</title>
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body onkeydown="startMusic()">
+	<h1> titre du jeu    </h1>
+	<p> score :  <span id="score">0</span> </p>
+
+	<div id  = "zone"> 
+	   <div id  = "ennemi">  </div>
+       <div id  = "joueur">  </div>
+	   
+    </div>
+	
+	<div id  = "commandes"> 
+       <button id  = "gauche">  gauche</button>
+	   <button id  = "droite"> droite </button>
+    </div>
+<!-- Musique -->
+<audio id="music" loop>
+  <source src="Wham! - Last Christmas (Official Video).mp3" type="audio/mpeg">
+</audio>
+<button id  = "M">  MUSIC</button>
+<script src="script.js"></script>
+</body>
+</html>
