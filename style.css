@@ -1,6 +1,13 @@
 body {
   text-align: center;
+  height: 100vh;
 }
+
+
+
+
+
+
 
 #zone {
 	position: relative;
